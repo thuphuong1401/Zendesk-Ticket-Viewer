@@ -24,5 +24,7 @@ class Ticket:
         str_url = "URL: {}".format(self.url)
         str_status = "Status: {}".format(self.status)
         str_created_at = "Created at: {}".format(self.created_at)
-        return "{} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n".format(str_id, str_assignee_id, str_submitter_id, str_subject, str_description, str_url, str_status, str_created_at)
-        
+        return "{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n".format(str_id, str_assignee_id, str_submitter_id, str_subject, str_description, str_url, str_status, str_created_at)
+    
+    def __eq__(self, other):
+        return self.id == other.id and self.assignee_id == other.assignee_id and self.submitter_id == other.submitter_id and self.subject == other.subject and self.description == other.description and self.url == other.url and self.status == other.status and self.created_at == other.created_at
