@@ -14,6 +14,7 @@ This is my solution to the Zendesk's Software Engineering Intern Coding challeng
 
 # Dependencies
 python 3.8.5
+
 requests 2.22.0
 
 # Installation and Running Instruction
