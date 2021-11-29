@@ -1,5 +1,6 @@
 # Zendesk-Ticket-Viewer
 Author: Phuong Vu
+
 Email: pvu3@u.rochester.edu
 
 This is my solution to the Zendesk's Software Engineering Intern Coding challenge. This application is a CLI one.
